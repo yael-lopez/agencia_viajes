@@ -1,0 +1,30 @@
+extends ./layout/index
+
+block contenido 
+    main.container.mt-5 
+        .row
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="Imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit, mi vel finibus pellentesque, nisl purus iaculis nibh, in fermentum est risus id nisl. Aenean purus ipsum, consectetur at est quis, elementum pharetra tortor. Proin ut elit lobortis, mollis risus eget, laoreet tellus. Fusce lacinia mauris at fermentum pharetra. Mauris vitae porttitor tortor, id mattis tortor. Integer sed massa at tortor ultricies vulputate in non urna.
+                p Sed nec nisi id sapien egestas efficitur non sit amet nibh. Cras malesuada eu lectus eu vehicula. In molestie interdum viverra. Morbi tempus nunc id est suscipit vehicula vel eget lectus. Nam in arcu non nulla rhoncus mollis. Aenean mollis, nibh sit amet ultricies volutpat, mi ex eleifend mauris, non condimentum augue neque sit amet mi. Nunc sit amet volutpat metus.
+                p Ut sit amet felis quis lacus commodo placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas convallis laoreet mi vel interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu sem et erat condimentum elementum. Integer placerat dolor in luctus aliquam. Cras bibendum urna quis enim fermentum fringilla.
+
+        .listado-iconos 
+            .container.mt-5.py-5.text-center 
+                .row 
+                    .col-md-4 
+                        img(src="img/icono_seguridad.svg", alt="Icono seguridad", class="img-fluid mb-4")
+                        h2.mb-4 Seguridad 
+                        p Sed nec nisi id sapien egestas efficitur non sit amet nibh.
+
+                    .col-md-4 
+                        img(src="img/icono_destinos.svg", alt="Icono destinos", class="img-fluid mb-4")
+                        h2.mb-4 Mejores destinos 
+                        p Sed nec nisi id sapien egestas efficitur non sit amet nibh.
+
+                    .col-md-4 
+                        img(src="img/icono_precios.svg", alt="Icono precios", class="img-fluid mb-4")
+                        h2.mb-4 Mejores precios 
+                        p Sed nec nisi id sapien egestas efficitur non sit amet nibh.        
